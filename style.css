@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo_area{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo_area span{
+    color:#ff42a5;
+}
+/* .logo_area h2{
+    font-size: 45px;
+} */
+.manu_area ul{
+    display: flex;
+    margin:20px;
+    padding:20px;
+    align-items: center;
+}
+.manu_area ul li{
+    padding:10px;
+    list-style: none;
+}
+.manu_area ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu_logos a{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+ .menu_logos{
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(11,2,35, 0.19);
+}
+.banner_container{
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.banner_info {
+    width: 50%;
+
+}
+.banner_img{
+    width: 50%;
+}
+.banner_img img{
+    width: 100%;
+}
+
+.banner_title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner_title_two {
+    font-size: 85px;
+    font-weight: 900;
+    color:  #F948B2;
+    line-height: 1.2px;
+   
+}
+
+.banner_des {
+    font-size: 22px;
+    font-weight: 500;
+}
+.banner_btn {
+    padding: 17px 41px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #FF42A5;
+}
+.banner_btn_two {
+    padding: 17px 41px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #4EC5F7;
+    margin-left: 20px;
+}
+.banner_title_icon {
+    margin-right: 10px;
+}
+
+/* Header section done */
+/* main part start */
+
+/* section one */
+.gamer_sec_one {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+
+.gamer_img {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.gamer_img img {
+    width: 100%;
+}
+
+.gamer_info {
+    width: 50%;
+    text-align: right;
+}
+.gamer_title {
+    font-size: 75px;
+    font-weight: 800;
+    color: #FF42A5;
+    text-align: right;
+}
+
+.gamer_title_info {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 43.3px;
+    text-align: right;
+}
+
+
+
+button.banner_btn {
+    text-align: right;
+}
+
+.gamer_info_two {
+    font-size: 30px;
+}
+
+.gamer_info_three {
+    font-size: 35px;
+    line-height: 1.2px;
+}
+/* section-two start */
+.gamer_video{
+    text-align: center;
+}
+.gamer_zone {
+    display: inline;
+}
+.gamer_zone_container {
+    display: flex;
+    gap: 196px;
+    padding-left: 550px;
+}
+.gamer_video_title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.funny {color: #FF42A5;}
+
+.gamer_video_info {
+    font-size: 25px;
+    line-height: 1.3px;
+    padding-bottom: 40px;
+}
+.gamer_zone_des {
+    font-size: 20px;
+    font-weight: 500;
+}
+.gamer_zone img{
+    width: 100%;
+}
+/* section three start */
+.angela_gamer_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+.angela_title {
+    font-size: 35px;
+    font-weight: 800;
+    color: #ff42a5;
+}
+
+.angela_title_two {
+    font-size: 40px;
+}
+
+
+.angela_des {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34.5px;
+}
+
+ .img_two {
+    position: relative;
+    top: -165px;
+    right: 107px;
+ }
+ 
+ .angela_img{
+    width:50%;
+ }
+ .img_one img{
+    width: 100%;
+ }
+ .img_two img{
+    width: 50%;
+ }
+ /* section four start */
+
+ .fire_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+ }
+ .fire_img{
+    width: 50%;
+ }
+ .img_three img{
+    width: 100%;
+ }
+ .img_four img{
+    width: 50%;
+ }
+ .img_four{
+    position: relative;
+    top: -165px;
+    right: 107px;
+ }
+ .fire_gamer_title{
+    font-size: 35px;
+    font-weight: 800;
+ }
+ .fire_gamer_title span{
+    color: #ff42a5;
+}
+/* footer-start */
+/* section-one */
+.careers_container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: white;
+    background-color: hotpink;
+
+}
+
+.careers_title {
+    font-size: 50px;
+}
+
+.careers_des {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43.2px;
+}
+
+.name_careers {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.artist_info {
+    padding-right: 190px;
+}
+
+.lisbon_info {
+    text-align: right;
+}
+.positions_btn {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 42px;
+    color: hotpink;
+    background-color: white;
+    font-weight: 700;
+}
+.group_img img{
+    width: 100%;
+}
+/* section-two */
+.games_container{
+    padding:110px;
+    margin:20px;
+}
+.first_container {
+    display: flex;
+    /* padding: 79px; */
+}
+
+
+.second_container {
+    display: flex;
+    margin-left: 250px;
+    /* padding:50px; */
+}
+.games {
+   display: flex;
+   padding:40px;
+   width: 300px;
+}
+.games h3{
+    padding-top: 14px;
+
+}
+.games img{
+    padding:15px;
+}
+/* .games p img{
+    padding-bottom: 20px;
+} */
+.games_container{
+    background-color: antiquewhite;
+}
+
+.contact {
+    display: flex;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    padding: 20px;
+}
+/* section-3rd */
+.footer_des{
+    display: flex;
+    margin-left: 600px;
+    color:#fff;
+    font-size: 20px;
+}
+.footer_des h3{
+    padding:20px;
+}
+.condition{
+    display: flex;
+    margin-left: 600px;
+}
+.condition h4{
+    padding:30px;
+    color:gainsboro;
+    font-size: 18px;
+}
+.footer_container{
+    text-align: center;
+    background-color: black;
+    padding:80px;
+}
+
+
+
+
+/* For Mobile Device */
+
+@media screen and (max-width: 576px ) {
+    nav, .manu_area ul, .banner_container, .gamer_sec_one, .gamer_zone_container, .angela_gamer_container, 
+     .fire_container {
+        flex-direction: column;
+    }
+.banner_info, .banner_img{
+    width: 100%;
+}
+.banner_info , .banner_img, .gamer_info, .gamer_img, .angela_img, .fire_img{
+    width:100%
+}
+.banner_info_button {
+    display: flex;
+}
+.banner_title {
+    font-size: 38px;
+}
+.banner_title_two{
+    font-size: 55px;
+    text-align: center;
+}
+.banner_des{
+    font-size: 18px;
+}
+.banner_btn, .banner_btn_two{
+    padding: 8px 30px;
+    font-size: 15px;
+}
+.gamer_title {
+    font-size: 35px;
+}
+.gamer_title_info{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.gamer_info_two{
+    font-size: 15px;
+}
+.gamer_info_three{
+    font-size: 17px;
+    line-height: 1.2px;
+}
+.gamer_zone_container{
+    padding-left: 0px;
+    gap:27px;
+}
+.gamer_video_title{
+    font-size: 28px;
+}
+.gamer_video_info{
+    font-size: 14px;
+    padding-bottom: 28px;
+}
+.img_one, .img_three{
+    width: 100%;
+
+ }
+.img_four img{
+    width: 50%;
+ }
+ .img_two img{
+    width: 50%;
+ }
+ .img_two, .img_four {
+    right: 6px;
+} 
+.fire_gamer_info{
+    margin:-155px;
+}
+.fire_container{
+    margin-top:-188px;
+    margin-bottom: 212px;
+} */
+ .careers_title {
+    font-size: 25px;
+}
+
+.careers_des {
+    font-size: 15px;
+    line-height: 22px;
+} */
+
+
+.artist_info {
+    padding-right: 40px;
+}
+
+.careers_container, .name_careers {
+    flex-direction: column;
+}
+.name_careers{
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.positions_btn{
+    height: 35px;
+    width:165px;
+    font-size: 15px;;
+}
+.gamer_zone img{
+    width: 100%;
+}
+.fire_gamer_des {
+    font-size: 12px;
+}
+.fire_gamer_title{
+    font-size: 25px;
+}
+
+
+} 
