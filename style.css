@@ -339,7 +339,7 @@ button.banner_btn {
 }
 section.footer_container {
     background-color: pink;
-    height: 500px;
+    height: 700px;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -360,8 +360,16 @@ section.footer_container {
 span.game_title {
     color: hotpink;
 }
+.conditon, .footer_des, li {
+ list-style: none;
+}
+.social_media_icons {
+    padding: 17px;
+}
 
-
+.social_media_icons img {
+    padding: 15px;
+}
 
 
  
@@ -495,7 +503,7 @@ span.game_title {
    
 }
 .game_img{
-    padding:32px;
+    padding:38px;
 }
 
 
