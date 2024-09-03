@@ -264,6 +264,7 @@ button.banner_btn {
     /* align-items: center; */
     color: white;
     background-color: hotpink;
+    padding:10px;
 
 }
 
@@ -285,9 +286,9 @@ button.banner_btn {
     font-size: 24px;
 }
 
-.artist_info {
+/* .artist_info {
     padding-right: 190px;
-}
+} */
 
 .lisbon_info {
     text-align: right;
@@ -407,11 +408,14 @@ button.banner_btn {
     padding: 8px 30px;
     font-size: 15px;
 }
+.gamer_info{
+    padding-left: 40px;
+}
 .gamer_title {
-    font-size: 35px;
+    font-size: 32px;
 }
 .gamer_title_info{
-    font-size: 11px;
+    font-size: 8px;
     font-weight: 600;
     line-height: 26px;
 }
@@ -419,7 +423,7 @@ button.banner_btn {
     font-size: 15px;
 }
 .gamer_info_three{
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1.2px;
 }
 .gamer_zone_container{
@@ -430,8 +434,11 @@ button.banner_btn {
     font-size: 28px;
 }
 .gamer_video_info{
-    font-size: 14px;
+    font-size: 13px;
     padding-bottom: 28px;
+}
+.angela_gamer_container{
+    margin-bottom: 70px;
 }
 .img_one, .img_three{
     width: 100%;
@@ -464,14 +471,15 @@ button.banner_btn {
 
 
 .artist_info {
-    padding-right: 40px;
+    padding-right: 0px;
+    width: 100%;
 }
 
 .careers_container, .name_careers {
     flex-direction: column;
 }
 .name_careers{
-    font-size: 10px;
+    font-size: 15px;
     padding: 0px;
     margin: 0px;
 }
